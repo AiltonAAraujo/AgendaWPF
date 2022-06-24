@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AgendaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'E:\AGENDA\AGENDA\AGENDA\APP_DATA\AGENDA.MDF.dbo.Clientes' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Clientes">
+          <Property Name="Id" Type="numeric" Precision="12" Scale="0" />
+          <Property Name="Nome" Type="nvarchar" MaxLength="100" />
+          <Property Name="Sobrenome" Type="nvarchar" MaxLength="100" />
+          <Property Name="Telefone" Type="numeric" Precision="15" Scale="0" />
+        </EntityType>-->
+  <EntityContainer Name="AgendaModelStoreContainer" />
+</Schema>
